@@ -33,7 +33,7 @@ const sleepIn = (weekday, vacation) => {
 }
  ```
 
-The output is always `true` excpet in one case, so I shortened it.
+The output is always `true` excpet in one case, so I shortened the program.
 ```js
 const sleepIn = (weekday, vacation) => {
     // first, check if it's a weekday or not
