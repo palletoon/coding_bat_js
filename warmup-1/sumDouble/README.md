@@ -23,6 +23,35 @@ const sumDouble = (num1, num2) => {
 }
 ```
 
+The second version looked like this
+```js
+const sumDouble = (num1, num2) => {
+    let multiplier = 1
+    if (num1 === num2) {
+        multiplier = 2
+    }
+    return multiplier * (num1 + num2)
+}
+ ```
+
+The third version uses if then statement in java (tunary)
+```js
+const sumDouble = (num1, num2) => {
+    const multiplier = num1 === num2 ? 2 : 1
+    return multiplier * (num1 + num2)
+}
+```
+The fourth version
+```js 
+const sumDouble = (num1, num2) => {
+    return (num1 === num2 ? 2 : 1) * (num1 + num2)
+}
+```
+
+The fifth version
+```js
+const sumDouble = (num1, num2) => (num1 === num2 ? 2 : 1) * (num1 + num2)
+```
 
 The final version of my code looks like this
 ```js
